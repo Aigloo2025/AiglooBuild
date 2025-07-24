@@ -11,8 +11,9 @@
 **Orchestration/Dispatch node**:
 > MacMini M4 | 16gb Unified Memory
 
-**SSH Client Terminal**:
-> MacBook Air M2 | 8gb Unified Memory
+**Thin Client**:
+> MacBook Air M4 | 16gb Unified Memory
+> 
 ### Power
 - EcoFlow River 2 | 768 watt hours
 ### Networking
@@ -22,7 +23,7 @@
   - WAP OUT for off grid network node
 - TP-Link Omada Access Point
 ### Peripherals
-- 4x 80mm cooling fans (2 intake x 2 exhaust)
+- 6x 80mm cooling fans (4 intake x 2 exhaust)
 - ThermPro wirelss thermometer
 
 ## Performance
