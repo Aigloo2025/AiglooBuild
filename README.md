@@ -3,16 +3,16 @@
 ## System Capabilities
 ### Compute
 **Heavy compute/AI inference node**:
-> MacStudio M3 Ultra | 256gb Unified Memory | 28 core CPU | 60 core GPU
+> MacStudio M3 Ultra | 256gb Unified Memory | 28 core CPU | 60 core GPU | 32 Core Neural Engine | 819 GB/s Memory Bandwith
 
 **Moderate compute/AI inference node**:
-> MacBook Pro M1 Max | 64gb Unified Memory
+> MacBook Pro M1 Max | 64gb Unified Memory | 10 Core CPU | 32 Core GPU
 
 **Orchestration/Dispatch node**:
-> MacMini M4 | 16gb Unified Memory
+> MacMini M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 
 
 **Thin Client**:
-> MacBook Air M4 | 16gb Unified Memory
+> MacBook Air M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 
 > 
 ### Power
 - EcoFlow River 2 | 768 watt hours
