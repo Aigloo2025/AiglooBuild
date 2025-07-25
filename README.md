@@ -3,19 +3,48 @@
 ## System Capabilities
 ### Compute
 **Heavy compute/AI inference node**:
-> MacStudio M3 Ultra | 256gb Unified Memory | 28 core CPU | 60 core GPU | 32 Core Neural Engine | 819 GB/s Memory Bandwith
+> MacStudio M3 Ultra | 256gb Unified Memory | 28 core CPU | 60 core GPU | 32 Core Neural Engine | 819 GB/s Memory Bandwith | 1TB SSD
 
 **Moderate compute/AI inference node**:
-> MacBook Pro M1 Max | 64gb Unified Memory | 10 Core CPU | 32 Core GPU
+> MacBook Pro M1 Max | 64gb Unified Memory | 10 Core CPU | 32 Core GPU | 1TB SSD
 
 **Orchestration/Dispatch node**:
-> MacMini M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 
+> MacMini M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 256GB SSD
+>> SanDisk 2TB Extreme Portable SSD - Up to 1050MB/s, USB-C, USB 3.2 Gen 2
 
 **Thin Client**:
-> MacBook Air M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 
-> 
+> MacBook Air M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 256GB SSD
+
+### Toplology
+```
+                            ================
+                            Aigloo Toplology
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+[Solar Power]    [Grid]                                  [Internet]
+    |--------------|                                          |
+    |                                                         |
+    V                                                         |
+[Battery]                                                     |   [WAP]
+     |---------------|--------------------|-----------------| |     A                        
+     |               |                    |                 | |     |
+     V               V                    V                 V V     |
+[MacStudio]      [MacMini]          [MacBook Pro]          [Ethernet Switch]
+  |   |           A | | A               |     |                     |
+  |  [TB 5 Out]---| | | |-------[TB 4 Out]    |                     |
+  |                 V |                       V                     |
+  |              [SSD]|                     [1GbE]<-----------------|
+  |                   V                                             |
+  |                 [1GbE]<-----------------------------------------|
+  V                                                                 | 
+[10GbE]<------------------------------------------------------------|                      
+```
+
 ### Power
-- EcoFlow River 2 | 768 watt hours
+- Battery: EcoFlow River 2 | 768 watt hours
+- Solar: EF ECOFLOW 160 Watt Portable Solar Panel | N-TYPE solar technology achieves 25% solar conversion efficiency.
+  
 ### Networking
 - ThunderBolt 4 mesh network from MacMini to MacStudio and MacBook Pro
 - TP-Link, 1GbE, 8 port, managed etherenet switch
