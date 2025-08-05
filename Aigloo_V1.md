@@ -30,25 +30,21 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 [Solar Power]    [Grid]                                  [Internet]
     |--------------|                                          |
     |                                                         |
-    V                                                         |
+    |                                                         |
 [Battery]                                                     |   [WAP]
-     |---------------|--------------------|-----------------| |     A                        
+     |---------------|--------------------|-----------------| |     |                        
      |               |                    |                 | |     |
-     V               V                    V                 V V     |
+     |               |                    |                 | |     |
 [MacStudio]      [MacMini]          [MacBook Pro]          [Ethernet Switch]
-  |   |           A | | A               |     |                     |
+  |   |           | | | |               |     |                     |
   |  [TB 5 Out]---| | | |-------[TB 4 Out]    |                     |
-  |                 V |                       V                     |
-  |              [SSD]|                     [1GbE]<-----------------|
-  |                   V                                             |
-  |                 [1GbE]<-----------------------------------------|
-  V                                                                 | 
-[10GbE]<------------------------------------------------------------|                      
+  |                 | |                       |                     |
+  |              [SSD]|                     [1GbE]------------------|
+  |                   |                                             |
+  |                 [1GbE]------------------------------------------|
+  |                                                                 | 
+[10GbE]-------------------------------------------------------------|                      
 ```
-
-### Power
-- Battery: EcoFlow River 2 | 768 watt hours
-- Solar: EF ECOFLOW 160 Watt Portable Solar Panel | N-TYPE solar technology achieves 25% solar conversion efficiency.
   
 ### Networking
 - ThunderBolt 4 mesh network from MacMini to MacStudio and MacBook Pro
@@ -56,9 +52,14 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   - Internet IN for at home use
   - WAP OUT for off grid network node
 - TP-Link Omada Access Point
+  
 ### Peripherals
 - 6x 80mm cooling fans (4 intake x 2 exhaust)
 - ThermPro wirelss thermometer
+
+### Power
+- Battery: EcoFlow River 2 | 768 watt hours
+- Solar: EF ECOFLOW 160 Watt Portable Solar Panel | N-TYPE solar technology achieves 25% solar conversion efficiency.
 
 ## Performance
 ### AI Capabilities
