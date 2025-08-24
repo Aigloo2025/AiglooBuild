@@ -9,13 +9,14 @@
 ### Compute
 **Heavy compute/AI inference node**:
 > MacStudio M3 Ultra | 256gb Unified Memory | 28 core CPU | 60 core GPU | 32 Core Neural Engine | 819 GB/s Memory Bandwith | 1TB SSD
+>> Samsung 990 EVO Plus NVMe SSD 4TB (7250 MB/s) in OWC Express 1M2 enclosure (3150 MB/s, USB 4) 
 
 **Moderate compute/AI inference node**:
 > MacBook Pro M1 Max | 64gb Unified Memory | 10 Core CPU | 32 Core GPU | 1TB SSD
 
 **Orchestration/Dispatch node**:
 > MacMini M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 256GB SSD
->> SanDisk 2TB Extreme Portable SSD - Up to 1050MB/s, USB-C, USB 3.2 Gen 2
+>> SanDisk 2TB Extreme Portable SSD (1050MB/s, USB 3.2 Gen 2)
 
 **Thin Client**:
 > MacBook Air M4 | 16gb Unified Memory | 10 Core GPU | 10 Core CPU | 256GB SSD
