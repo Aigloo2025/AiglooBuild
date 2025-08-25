@@ -37,10 +37,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
      |               |                    |                 | |     |
      |               |                    |                 | |     |
 [MacStudio]      [MacMini]          [MacBook Pro]          [Ethernet Switch]
-  |   |           | | | |               |     |                     |
-  |  [TB 5 Out]---| | | |-------[TB 4 Out]    |                     |
-  |                 | |                       |                     |
-  |              [SSD]|                     [1GbE]------------------|
+  ||  |           | | | |               |     |                     |
+  || [TB 5 Out]---| | | |-------[TB 4 Out]    |                     |
+  ||                | |                       |                     |
+  ||-[SSD]       [SSD]|                     [1GbE]------------------|
   |                   |                                             |
   |                 [1GbE]------------------------------------------|
   |                                                                 | 
